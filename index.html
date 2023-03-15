@@ -5,13 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Votanoessa</title>
-    <link rel="icon" type="image/png" href="./images/logos/logo_cropped_green.png" />
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./images/logos/logo_cropped_green.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div>
-        <img src="./images/logos/logo_transparent_green.png">
-    </div>
-    <h1>Coming soon ...</h1>
-</body>
+    <section class="section1">
+        <div class="container">
+            <div class="intro">
+                <div class="img-container">
+                    <img src="./images/logos/logo_transparent_green.webp" alt="Logo" width="400" height="400" style="float: right;">
+                </div>
+                <div class="categories-headers">
+                    <h1>Βιολογικά βότανα</h1>
+                    <h1 style="padding-left: 10%; padding-top: 4%;">Φυτικά καλλυντικά</h1>
+                    <h1 style="padding-left: 20%; padding-top: 4%;">Αιθέρια έλαια</h1>
+                    <h2 style="padding-left: 10%; padding-top: 4%;">από Έλληνες παραγωγούς</h2>
+                    <a href="#our-shop"><button class="find-us-btn" style="margin-left: 17.5%; margin-top: 4%;">Βρείτε μας</button></a>
+                </div>
+            </div>
+            <span class="about-products-span"><i class="fa-solid fa-seedling" style="color: #7CB342;"></i> Όλα μας τα προϊόντα παράγονται με φυσικό τρόπο, με σεβασμό και αγάπη προς το περιβάλλον. <i class="fa-solid fa-seedling" style="color: #7CB342;"></i></span>
+            <span class="contact-span">Για παραγγελίες ή ερωτήσεις σχετικά με τα προϊόντα μας <a href="#contact-us">επικοινωνήστε</a> μαζί μας.</span>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="container">
+            <h1 id="our-shop">Το κατάστημά μας</h1>
+                <div class="find-us">
+                    <div class="photo-container">
+                        <div class="photo-border">
+                            <img src="./images/photos/front.png" alt="shop-photo" width="300" height="450" id="photo">
+                        </div>
+                        <div class="arrow-buttons">
+                            <button class="circular-btn" id="circle-btn-1" onclick="photo_left()"><i class="fa-solid fa-angle-left"></i></button>
+                            <button class="circular-btn" id="circle-btn-2" onclick="photo_right()"><i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="address-container">
+                        <span class="address-span"><span class="address-subspan">Διεύθυνση:</span> Αλκυόνης 23, Παλαιό Φάληρο, 175 61</span>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1639599562295!2d23.691061115629672!3d37.926599911182194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd854cbc1815%3A0x8a580edce5a4899e!2sVotanoessa!5e0!3m2!1sel!2sgr!4v1678655458684!5m2!1sel!2sgr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="container">
+            <h1 id="contact-us">Επικοινωνία</h1>
+            <div class="social-frame">
+                <a href="https://www.facebook.com/profile.php?id=100090476822900" target="_blank" class="social-btn fb">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/votanoessa/" target="_blank" class="social-btn insta">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <span class="email"><i class="fa-solid fa-envelope"></i> info@votanoessa.com</span>
+            <a class="phone" href="tel:+306984024085"><i class="fa-solid fa-phone"></i> +30 698 402 4085</a>
+        </div>
+    </section>
+    <section class="section4">
+        <div class="container">
+        </div>
+    </section>
+    <script src="./script.js"></script>
+<body>
 </html>
