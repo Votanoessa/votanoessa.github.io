@@ -94,8 +94,8 @@ section {
                 -6px -6px 10px rgba(255, 255, 255, .5),
                 6px 6px 8px rgba(255, 255, 255, .075),
                 6px 6px 10px rgba(0, 0, 0, .15);
-    width: max(13vw, 100px);
-    height: max(8vh, 30px);
+    width: max(13vw, 120px);
+    height: max(8vh, 60px);
     font-size: max(1.5vw, 16px);
     transition: .2s ease-in-out;
 }
@@ -261,7 +261,7 @@ section {
     justify-content: space-around;
     align-items: center;
     height: 25%;
-    width: 20%;
+    width: max(20%, 140px);
     border-radius: 10px;
 }
 
