@@ -1,4 +1,4 @@
-const photos = ['./images/photos/front.png', './images/photos/inside.png'];
+const photos = ['./images/photos/front.webp', './images/photos/inside.webp', './images/photos/cosmetics.webp'];
 var photo_idx = 0;
 
 const btn_left = document.getElementById('circle-btn-1');
