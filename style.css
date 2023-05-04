@@ -167,8 +167,8 @@ section {
     justify-content: center;
     background-color: white;
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.25);
-    width: max(45%, 180px);
-    height: max(75%, 180px);
+    width: max(45%, 200px);
+    height: max(75%, 200px);
 }
 
 .section2 img{
