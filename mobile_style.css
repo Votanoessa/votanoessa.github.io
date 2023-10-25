@@ -142,6 +142,7 @@
     }    
 
     .mob-caret-btn {
+        display: block;
         color: white;
         border: none;
         background-color: transparent;

@@ -190,6 +190,10 @@ section {
     display: none;
 }
 
+.mob-caret-btn {
+    display: none;
+}
+
 .section2 img{
     width: 97%;
     height: 96%;

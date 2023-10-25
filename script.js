@@ -16,9 +16,6 @@ const photos = ['./images/photos/Votanoessa2023_shop2.webp',
                 './images/photos/Votanoessa2023_shop16.webp',
                 ];
 var photo_idx = 0;
-
-const btn_left = document.getElementById('circle-btn-1');
-const btn_right = document.getElementById('circle-btn-2');
 var photo = document.getElementById('photo');
 
 function photo_left() {
