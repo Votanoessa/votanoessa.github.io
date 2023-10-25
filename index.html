@@ -32,20 +32,31 @@
         <div class="container">
             <h1 id="our-shop">Το κατάστημά μας</h1>
                 <div class="find-us">
-                    <div class="photo-container">
-                        <div class="photo-border">
-                            <img src="./images/photos/front.webp" alt="shop-photo" width="300" height="450" id="photo">
-                        </div>
-                        <div class="arrow-buttons">
-                            <button class="circular-btn" id="circle-btn-1" onclick="photo_left()"><i class="fa-solid fa-angle-left"></i></button>
-                            <button class="circular-btn" id="circle-btn-2" onclick="photo_right()"><i class="fa-solid fa-angle-right"></i></button>
-                        </div>
-                    </div>
                     <div class="address-container">
-                        <span class="address-span"><span class="address-subspan">Διεύθυνση:</span> Αλκυόνης 23, Παλαιό Φάληρο, 175 61</span>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1639599562295!2d23.691061115629672!3d37.926599911182194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd854cbc1815%3A0x8a580edce5a4899e!2sVotanoessa!5e0!3m2!1sel!2sgr!4v1678655458684!5m2!1sel!2sgr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <!-- <span class="address-span"><span class="address-subspan">Διεύθυνση:</span> Αλκυόνης 23, Παλαιό Φάληρο, 175 61</span> -->
+                        <a class="address-span" 
+                        href="https://www.google.com/maps/place/Votanoessa/@37.926611,23.6906808,17z/data=!3m1!4b1!4m6!3m5!1s0x14a1bd854cbc1815:0x8a580edce5a4899e!8m2!3d37.9266068!4d23.6932557!16s%2Fg%2F11tg8m42r4?entry=ttu"
+                        target="_blank">
+                        <i class="fa-solid fa-location-dot"></i> Αλκυόνης 23, Παλαιό Φάληρο, 175 61</a>
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.1639599562295!2d23.691061115629672!3d37.926599911182194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd854cbc1815%3A0x8a580edce5a4899e!2sVotanoessa!5e0!3m2!1sel!2sgr!4v1678655458684!5m2!1sel!2sgr" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                     </div>
-            </div>
+                    <div class="photo-container">
+                        <!-- <div class="photo-border">
+                            <img src="./images/photos/Votanoessa2023_shop2.webp" alt="shop-photo" width="400" height="200" id="photo">
+                        </div> -->
+                        <!-- <div class="arrows">
+                            <div class="arrow-buttons">
+                                <button class="circular-btn" id="circle-btn-1" onclick="photo_left()"><i class="fa-solid fa-angle-left"></i></button>
+                                <button class="circular-btn" id="circle-btn-2" onclick="photo_right()"><i class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div> -->
+                        <button class="caret-btn" id="caret-btn" onclick="photo_left()"><i class="fa-solid fa-caret-left"></i></button>
+                        <div class="photo-border">
+                            <img src="./images/photos/Votanoessa2023_shop2.webp" alt="shop-photo" width="400" height="200" id="photo">
+                        </div>
+                        <button class="caret-btn" id="caret-btn" onclick="photo_right()"><i class="fa-solid fa-caret-right"></i></button>
+                    </div>
+                </div>
         </div>
     </section>
     <section class="section3">

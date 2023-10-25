@@ -145,20 +145,24 @@ section {
 
 .find-us {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    /* width: 100%;
     height: 80%;
-    gap: 5vw;
+    gap: 5vh; */
 }
 
 .section2 .photo-container {
-    width: 50%;
+    width: 70%;
     height: 100%;
-    padding-top: 2.5vh;
+    padding-top: 2vh;
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    /* align-items: end; */
 }
 
 .photo-border {
@@ -167,18 +171,32 @@ section {
     justify-content: center;
     background-color: white;
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.25);
-    width: max(45%, 200px);
-    height: max(75%, 200px);
+    width: max(70%, 700px);
+    height: max(50%, 500px);
+}
+
+.caret-btn {
+    font-size: 5vw;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.caret-btn:active {
+    color: var(--off-white);
 }
 
 .section2 img{
-    width: 95%;
-    height: 95%;
+    width: 97%;
+    height: 96%;
 }
 
 .address-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 100%;
     padding-top: 1vh;
@@ -186,7 +204,7 @@ section {
 
 .address-span {
     color: white;
-    font-size: max(1.1vw, 12px);
+    font-size: max(1.2vw, 16px);
     padding-bottom: min(1.5vh, 10px);
 }
 
@@ -204,7 +222,7 @@ section {
     justify-content: center;
     gap: max(10%, 20px);
     width: max(45%, 180px);
-    padding-top: max(2%, 10px);
+    padding-top: max(4%, 20px);
 }
 
 .section2 .circular-btn {

@@ -1,4 +1,20 @@
-const photos = ['./images/photos/interior2.webp', './images/photos/exterior2.webp', './images/photos/front.webp', './images/photos/inside.webp', './images/photos/cosmetics.webp'];
+const photos = ['./images/photos/Votanoessa2023_shop2.webp',
+                './images/photos/Votanoessa2023_shop1.webp',
+                './images/photos/Votanoessa2023_shop3.webp',
+                './images/photos/Votanoessa2023_shop4.webp',
+                './images/photos/Votanoessa2023_shop5.webp',
+                './images/photos/Votanoessa2023_shop6.webp',
+                './images/photos/Votanoessa2023_shop7.webp',
+                './images/photos/Votanoessa2023_shop8.webp',
+                './images/photos/Votanoessa2023_shop9.webp',
+                './images/photos/Votanoessa2023_shop10.webp',
+                './images/photos/Votanoessa2023_shop11.webp',
+                './images/photos/Votanoessa2023_shop12.webp',
+                './images/photos/Votanoessa2023_shop13.webp',
+                './images/photos/Votanoessa2023_shop14.webp',
+                './images/photos/Votanoessa2023_shop15.webp',
+                './images/photos/Votanoessa2023_shop16.webp',
+                ];
 var photo_idx = 0;
 
 const btn_left = document.getElementById('circle-btn-1');
