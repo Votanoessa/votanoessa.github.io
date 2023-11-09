@@ -132,7 +132,7 @@ section {
 
 .section2 {
     background-color: var(--logo-green);
-    height: 80vh;
+    height: 90vh;
 }
 
 .section2 h1 {
@@ -145,17 +145,15 @@ section {
 .find-us {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: start; */
     align-items: center;
-    /* width: 100%;
-    height: 80%;
-    gap: 5vh; */
+    height: 100%;
+    width: 100%;
 }
 
 .section2 .photo-container {
-    width: 70%;
-    height: 100%;
-    padding-top: 2vh;
+    width: 55vw;
+    height: 65vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -170,8 +168,8 @@ section {
     justify-content: center;
     background-color: white;
     box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.25);
-    width: max(70%, 700px);
-    height: max(50%, 500px);
+    width: 55vw;
+    height: 60vh;
 }
 
 .caret-btn {
@@ -204,8 +202,8 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 100%;
+    /* width: 50%; */
+    /* height: 100%; */
     padding-top: 1vh;
 }
 
@@ -213,6 +211,7 @@ section {
     color: white;
     font-size: max(1.2vw, 16px);
     padding-bottom: min(1.5vh, 10px);
+    /* border: 1px solid purple; */
 }
 
 .address-subspan {
@@ -263,7 +262,7 @@ section {
 
 .section3 {
     background-color: var(--off-white);
-    height: 60vh;
+    height: 80vh;
 }
 
 .section3 h1 {
@@ -285,7 +284,7 @@ section {
                 inset 0px 0px 0px 0px #0001 ;
     justify-content: space-around;
     align-items: center;
-    height: 25%;
+    height: 20%;
     width: max(20%, 140px);
     border-radius: 10px;
 }
@@ -350,6 +349,43 @@ section {
     font-size: max(1.5vw, 16px);
 }
 
+.schedule-container {
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule-container h2 {
+    font-size: max(1.2vw, 14px);
+    color: var(--dark-green);
+}
+
+.schedule-container span {
+    font-size: max(1vw, 12px);
+}
+
+.schedule {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+
+.hours {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh
+}
 /* SECTION 4 */
 
 .section4 {

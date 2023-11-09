@@ -156,7 +156,7 @@
     /* SECTION 3 */
 
     .section3 {
-        height: 40vh;
+        height: 70vh;
     }
 
     .section3 h1 {
@@ -165,6 +165,10 @@
 
     .section3 .container {
         justify-content: start;
+    }
+
+    .schedule-container span {
+        font-size: max(1vw, 12px);
     }
     
 }
